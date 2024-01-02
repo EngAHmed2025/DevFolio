@@ -1,0 +1,134 @@
+ul{
+    list-style: none;
+}
+
+#Home{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/hero-bg.jpg);
+background-position: center center;
+background-size: cover;
+height: 100vh;
+}
+#Home h1{
+font-size: 80px;
+word-spacing:8px;
+}
+
+.hero-subtitle{
+color: white;
+font-size: 40px;
+display: block;
+}
+.navbar li{
+position: relative;
+transition: broder 0.8s ease;
+
+}
+
+.navbar li:hover{
+border-bottom:1px solid #eee;
+}
+.ico-cricle{
+width: 25%;
+height: 25%;
+border: #0078ff 10px solid;
+padding:20px;
+border-radius: 50%;
+transition: .5s;
+}
+.our-servies .ico-cricle:hover{
+background-color: #0078ff;
+
+}
+
+.label-counter .container-fluid{
+background-image: linear-gradient(rgba(0, 120, 255,0.3),rgba(0, 120, 255, 0.9)),url(../images/post-3.jpg);
+background-size: cover;
+background-attachment: fixed;
+}
+
+.work-box{
+overflow: hidden;
+border: 1px solid #eee;
+}
+.Portfolio img{
+transition: all .6s ease-in-out;
+}
+.Portfolio img:hover{
+transform: scale(1.1);
+overflow: hidden;
+
+}
+
+.overlay{
+background-image: linear-gradient(rgba(0, 120, 255,0.3),rgba(0, 120, 255, 0.9)),url(../images/overlay-bg.jpg);
+background-size: cover;
+background-attachment: fixed;
+background-position: center center;
+height:50vh;
+}
+
+
+.title-a{
+font-size: 50px;
+font-weight: 600;
+}
+
+.small-1{
+width: 10%;
+margin-right: 10px;
+}
+.counter-box i{
+color: white;
+}
+.counter-num{
+padding-top: 35px;
+color: white;
+font-size: 20px;
+}
+.counter-box{
+display: block;
+text-align: center;
+}
+
+.counter-text{
+display: block;
+
+}
+.overlay-2{
+    background-image: linear-gradient(rgba(0, 120, 255,0.3),rgba(0, 120, 255, 0.9)),url(../images/overlay-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.title-right{
+font-size: 30px;
+}
+
+.fa-circle-plus{
+margin-bottom: 23px;
+margin-left: 25px;
+}
+.cricle-icon
+{
+border: 2px solid #0078ff;
+border-radius:50%;
+margin: 8px;
+width: 60px;
+height: 60px;
+text-align: center;
+transition: all 0.5s;
+}
+
+.cricle-icon:hover{
+color: #eee;
+background-color: #0078ff;
+
+}
+
+
+footer{
+background-color: #0062d3;
+color: #eee;
+}
+
